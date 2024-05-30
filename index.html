@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./img/gymcodingx2-removebg.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./css/reset_css.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://unpkg.com/typeit@8.8.3/dist/index.umd.js"></script>
+    <script src="js/main.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/10cdaa8b74.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>ポートフォリオ</title>
+    <meta name="description" content="APACHE ポートフォリオ"/>
+    <meta name="author" content="APACHE"/>
+    <meta name="Keywords" content="AK"/>
+    <!-- OG -->
+    <meta property="og:title" content="APACHEポートフォリオ"/>
+    <meta name="og:description" content="APACHE ポートフォリオ"/>
+    <meta property= "og:image" content="https://yourwebsite.com/images/apache.jpeg"/>
+    <meta property="og:type" content="website"/>
+
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav container">
+        <!-- 이미지(로고) -->
+        <div class="nav__logo">
+          <img class="nav__img"
+            src="./img/gymcodingx2-removebg.png"
+            alt="짐코딩 로고"
+          />
+          <a href="#" class="nav__brand">짐코딩</a>
+        </div>
+    
+        <!-- 메뉴 -->
+        <div class="nav__menu " id="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Work</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav__toggle" id="nav__toggle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="home container" id="home">
+        <div class="home__data">
+          <h2 id="typeit" class="home__title">
+   
+          </h2>
+          <a href="#contact" class="button">Contact</a>
+
+          <div class="home__social">
+
+            <a href="https://www.youtube.com/@apache7494 " target="_blank"
+            title="APACHE youtube">
+              <i class="fa-brands fa-youtube home__social-icon"></i></a>
+            <a href="https://www.instagram.com/gymcoding/" target="_blank"
+            title="gymcoding instagram "><i class="fa-brands fa-instagram home__social-icon"></i></a>
+            <a href="https://github.com/gymcoding" target=_blank
+            title="gymcoding github "><i class="fa-brands fa-github home__social-icon"></i></a>
+        </div>
+          </div>
+        </div>
+      <div ><img src="img/profile.gif "class="home__img" alt="" /></div>
+      </section>
+      <section class="about section bg-grey-1" id="about">
+        <h2 class="section__title">About</h2>
+        <div class="about__container container">
+        <img  class="about__img " src="img/about.jpg" alt="profile">
+        <div class="about__data" ><h3 class="about__subtitle">저는 이렇게 답합니다 </h3>
+          <p class="about__text">
+            프로그래밍을 배우는 사람의 마음을 너무 잘 압니다. 저도 여러분과
+            똑같은 입장이었던 적이 있기 때문입니다. 개발자로 취업 후 1년 정도
+            다니고 퇴사를 결심한 적이 있습니다. 왜냐하면 프로그래밍을 잘 모르고
+            취업했기 때문입니다.
+            <br /><br />
+            퇴사 후 학원에 다니며 하루 4시간 자면서 열심히 살았습니다. 과거로
+            돌아가도 그때처럼 공부할 자신이 없을 정도니까요. 그리고 현재 저는
+            인프런과 유튜브에서 웹 개발 입문자와 실무자들을 위한 웹 개발 지식을
+            공유하고 있습니다.
+            <br /><br />
+            제 강의는 제가 프로그래밍을 잘 알지 못했던 시절과 개발자로서
+            지식공유를 하며 어려움을 겪었던 분들의 입장에서 이해하기 쉽고,
+            현업에서도 꿀리지 않도록 알차게 구성한 강의입니다.
+
+          </p>
+       </div>
+      </div>
+      </section>
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Skills</h2>
+
+        <div class="skills__container container">
+          <!-- skill data -->
+          <div>
+            <h3 class="skills__subtitle">Profesional Skills</h3>
+            <p class="skills__text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium quae libero delectus. Fuga tenetur quam magnam
+              accusamus incidunt itaque assumenda voluptatum vero, animi nisi
+              fugiat nemo debitis reprehenderit ab deleniti!
+            </p>
+          </div>
+          <div>
+            <article class="skills__data">
+              <div class="skills__names">
+                <!-- icon -->
+                <i class="fa-brands fa-html5 skills__icon"></i>
+                <!-- skill name -->
+                <span class="skills__name">HTML5</span>
+              </div>
+              <div>
+                <!-- persentage -->
+                <span class="skills__persentage">85%</span>
+              </div>
+              <progress class="skills__progress" id="HTML5" max="100" value="85"></progress>
+            </article>
+            <article class="skills__data">
+              <div class="skills__names">
+              <!-- icon -->
+              <i class="fa-brands fa-css3-alt skills__icon"></i>              <!-- skill name -->
+              <span class="skills__name">CSS3</span>
+            </div>
+            <div>
+              <!-- persentage -->
+              <span class="skills__persentage">100%</span>
+            </div>
+            <progress class="skills__progress" id="CSS3" max="100" value="100"></progress>
+          </article>
+          <article class="skills__data">
+            <div class="skills__names">
+             <!-- icon -->
+             <i class="fa-brands fa-js skills__icon"></i>            
+              <span class="skills__name">JS</span>
+           </div>
+           <div>
+             <!-- persentage -->
+             <span class="skills__persentage">90%</span>
+           </div>
+           <progress class="skills__progress" id="js" max="100" value="90"></progress>
+          
+
+            </article>
+          </div>
+          <!-- skill img -->
+          <div>
+            <img class="skills__img" src="img/skills.jpeg" alt="desktop image">
+          </div>
+        </div>
+      </section>
+      <section class="work section" id="work">
+        <h2 class="section__title">Work</h2>
+        <div class="work__container container">
+          <a class="work__link" href="https://www.youtube.com/@apache7494/featured"target="_blank" title="weapons">
+            <img class="work__img" src="img/weapons-3417507_1280.jpg" alt="APACHE WEAPONS">
+          </a>
+          <a class="work__link" href="https://www.youtube.com/@apache7494/featured"target="_blank" title="weapons">
+            <img class="work__img" src="img/weapons-3417507_1280.jpg" alt="APACHE WEAPONS">
+          </a>
+          <a class="work__link" href="https://www.youtube.com/@apache7494/featured"target="_blank" title="weapons">
+            <img class="work__img" src="img/weapons-3417507_1280.jpg" alt="APACHE WEAPONS">
+          </a>
+          
+          
+        </div>
+      </section>
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <div class="contact__container container">
+          <form class="contact__form" id="contactForm" action="">
+          <input class="contact__input" type="text" name="name" placeholder="名前" required>
+          <input class="contact__input" type="text" name="subject" placeholder="題名" required>
+          <textarea class="contact__input" name="message" id="message" placeholder="内容"　required></textarea>
+          <button class="contact__button button">送信</button>
+        </form>
+        </div>
+      </section>
+      <button class="floating-button" id="floating-button">
+        <i class="fa-solid fa-arrow-up floating-button-icon"></i>
+      </button>
+    </main>
+    <footer class="footer">
+      <p class="footer__title">APACHE CODING</p>
+      <div class="footer__social">
+        <a href="https://www.youtube.com/@apache7494 " target="_blank"
+        title="APACHE youtube"
+          >
+          <i class="fa-brands fa-youtube footer__icon"></i></a>
+        <a href="https://www.instagram.com/gymcoding/" target="_blank"
+        title="gymcoding instagram"><i class="fa-brands fa-instagram footer__icon"></i></a>
+        <a href="https://github.com/gymcoding" target=_blank
+        title="gymcoding github"><i class="fa-brands fa-github footer__icon"></i></a>
+    </div>
+    <p class="footer__copy">Copy right &copy; </p>
+      </div>
+    </footer>
+  </body>
+</html>
